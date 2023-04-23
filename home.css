@@ -1,0 +1,112 @@
+nav{
+    background-color: #32594a;
+    padding: 20px;
+    /* position: sticky; */
+    top: 90px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 15%;
+    display: inline-block;
+    font-size: 15px;
+}
+nav li a{
+    text-decoration: none;
+    color: #b48f57;
+}  
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.art {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.reasons{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+/* .dates{
+    display:inline-left;
+    width: 20%;
+    margin: auto;
+}  
+.growth{
+    display:inline-left;
+    width: 20%;
+    margin: auto;
+}   */
+p.reminder{
+    color:#b48f57 ;
+}
+p.gentle{
+    color:#b48f57 
+}
+p.gentle.reminder{
+    border: 1px dashed #32594a;
+}
+#poetry{
+    background-color: beige;
+    padding: 20px;
+}
+p.disclaimer{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p{
+    color: #000000;
+}
+div .state{
+    color: #300404;
+}
+a[href]{
+    background-color: #32594a;
+    margin: 5px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #b48f57;
+}
+/* a[href].hover{
+    background-color: #300404;
+} */
+a[href="#"]{ /* if you add an asteric infront of href element it will search up the link on the html that includes whatever words you put in the quotes after the equal sign*/
+    background-color: #b48f57;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: lowercase ;
+} 
+a[href="tweet"]{
+    font-weight: none;
+
+}
+/* div{
+    color: #1d87aa;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+p{
+    color: chartreuse;
+} */

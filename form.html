@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1 style="color: brown; text-align: center">HTML Forms</h1>
+    </header>
+
+    <h2>Input Form</h2>
+    <form>
+      <label for="username">Enter Username: </label>
+      <!--Labels act as the title-->
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="username"
+        required
+      />
+      <br /><br /><!-- Creates even and better spacing for the form input-->
+      <label for="email"> Enter Email: </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder=" your email"
+        required
+      />
+      <br /><br />
+      <label for="password">Enter Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="choose your password"
+        required
+      />
+    </form>
+
+    <h3>Radio Button Input Form</h3>
+
+    <p><b>Select your age: </b></p>
+
+    <input type="radio" name="age" value="0-20" id="option-1" />
+    <label for="option-1">0-20</label> <br />
+    <input type="radio" name="age" value="21-35" id="option-2" />
+    <label for="option-2">21-35</label> <br />
+    <input type="radio" name="age" value="36-55" id="option-3" />
+    <label for="option-3">36-55</label> <br />
+
+    <br />
+
+    <h4>Security Questions</h4>
+
+    <p>Select the Security Question</p>
+
+    <label for="">Security Question: </label>
+    <select name="question" id="question">
+      <option value="q1">What colour are your favorite pair of socks?</option>
+      <option value="q2">If you could be vegetable what would you be?</option>
+      <option value="q3">What is your best ever security question?</option>
+    </select>
+
+    <br /><br />
+
+    <label for="answer">Security Question Answer: </label>
+    <input type="text" id="answer" name="answer" />
+
+    <br /><br />
+
+    <h5>Your Bio</h5>
+
+    <label for="bio">Your bio</label><br />
+    <textarea
+      name="bio"
+      id="bio"
+      cols="30"
+      rows="10"
+      placeholder="About you..."
+    ></textarea>
+
+    <br /><br />
+    <input type="submit" value="submit the form" />
+
+    <div>
+      <h3>Explanation</h3>
+      <p>
+        <em>
+          This session is mostly about forms, which i didnt exactly feel excited
+          about cause im more invested in the design part of the website. I
+          wanna make it look aesthically pleasing so even if i do the form i
+          want to be pleased just by looking at it. Hmm i know not cute but i
+          said what i said. I have added comments to make it more
+          understandable.
+        </em>
+      </p>
+
+      <p>
+        <em>
+          From this webpage going on i am going to be adding CSS styles that i
+          learnt from class(actual school) The webpage will start to look better
+          with each session. As they should. Since im a beginner the overall
+          ebpage structure may differ but based on class yesterday i can resture
+          the manner the websites look which is good for me. I am going to do.
+          Its officially done for y'll
+        </em>
+      </p>
+    </div>
+
+    <h2>About the webpage</h2>
+    <p>
+      The webpage contains information and details on how a form is. The html
+      text used here are text, inputs, labels, select, placeholders, values. All
+      of which allwo the user to input data. The labels make it easy to identify
+      what the input is for while the text will identify what data needs to
+      typed in as the input by the user.
+
+      <ol>
+        <li><b>Labels:</b> are used to identify what is the input type is </li>
+        <li><b>Input:</b> was used to allow the user to input data</li>
+        <li><b>Text:</b> This would imply what the user is typing in. (It would also act as a form of data validation just in case they type in number instead of text)</li>
+        <li><b>Select:</b> was used for drop down lists</li>
+        <li><b>Placeholder:</b> are used after id tags in the input places and they act as directors for the users to know what to type.</li>
+      </ol>
+    </p>
+
+    <a href="#">Jump to Top</a>
+  </body>
+</html>
